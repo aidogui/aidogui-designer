@@ -1,4 +1,4 @@
-name: Sync GitHub Release To Gitee
+name: Sync GitHub Release To Gitee V5 API
 on:
   release:
     types: [published]
@@ -7,75 +7,87 @@ jobs:
   sync_release:
     runs-on: ubuntu-latest
     env:
-      # Gitee 官方标准API地址
+      # Gitee V5 官方标准API根地址
       GITEE_API_BASE: https://gitee.com/api/v5
       GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
       GITEE_FULL_REPO: ${{ secrets.GITEE_REPO }}
     steps:
-      # 1. 下载本次Release所有附件
+      # 1. 下载GitHub Release所有附件
       - name: Download Release Assets
         run: |
           mkdir -p ./release_assets
           ASSET_URLS=$(curl -s --max-time 120 ${{ github.event.release.assets_url }} | jq -r '.[].browser_download_url')
           for url in $ASSET_URLS; do
             filename=$(basename "$url")
-            echo "Downloading asset: $filename"
+            echo "Download asset: $filename"
             curl -L --max-time 120 -o ./release_assets/$filename "$url"
           done
 
-      # 2. 拆分仓库信息、转义Release正文（解决换行/引号JSON报错）
-      - name: Parse Gitee Repo Info
+      # 2. 拆分仓库owner/repo、转义Release正文（解决json换行/引号报错）
+      - name: Parse repository info & escape body
         run: |
           echo "GITEE_OWNER=${GITEE_FULL_REPO%%/*}" >> $GITHUB_ENV
           echo "GITEE_REPO=${GITEE_FULL_REPO#*/}" >> $GITHUB_ENV
-          echo "RELEASE_TAG=${{ github.event.release.tag_name }}" >> $GITHUB_ENV
-          echo "RELEASE_NAME=${{ github.event.release.name }}" >> $GITHUB_ENV
-          echo "RELEASE_PRERELEASE=${{ github.event.release.prerelease }}" >> $GITHUB_ENV
-          ESCAPED_BODY=$(echo '${{ github.event.release.body }}' | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
-          echo "RELEASE_BODY=$ESCAPED_BODY" >> $GITHUB_ENV
+          echo "TAG=${{ github.event.release.tag_name }}" >> $GITHUB_ENV
+          echo "REL_NAME=${{ github.event.release.name }}" >> $GITHUB_ENV
+          echo "IS_PRE=${{ github.event.release.prerelease }}" >> $GITHUB_ENV
+          # 转义双引号、换行符，适配JSON请求体
+          RAW_BODY='${{ github.event.release.body }}'
+          ESCAPED=$(echo "$RAW_BODY" | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
+          echo "REL_BODY=$ESCAPED" >> $GITHUB_ENV
 
-      # 3. 删除Gitee同Tag旧Release，避免冲突
-      - name: Delete Old Same Tag Release
+      # 3. 查询已有Release，删除同tag旧版本（遵循V5接口 GET /repos/{owner}/{repo}/releases）
+      - name: Remove old release with same tag
         run: |
-          ALL_RELEASES=$(curl -s --max-time 60 "${GITEE_API_BASE}/repos/${{ env.GITEE_OWNER }}/${{ env.GITEE_REPO }}/releases?access_token=${GITEE_TOKEN}")
-          OLD_RELEASE_ID=$(echo "$ALL_RELEASES" | jq -r '.[] | select(.tag_name == "${{ env.RELEASE_TAG }}") | .id')
-          if [[ "$OLD_RELEASE_ID" != "null" && -n "$OLD_RELEASE_ID" ]]; then
-            echo "Delete old release id: $OLD_RELEASE_ID"
-            curl -X DELETE --max-time 60 "${GITEE_API_BASE}/repos/${{ env.GITEE_OWNER }}/${{ env.GITEE_REPO }}/releases/$OLD_RELEASE_ID?access_token=${GITEE_TOKEN}"
+          API_URL="${GITEE_API_BASE}/repos/${{ env.GITEE_OWNER }}/${{ env.GITEE_REPO }}/releases?access_token=${GITEE_TOKEN}"
+          echo "Query releases: $API_URL"
+          RESP=$(curl -s --max-time 60 "$API_URL")
+          echo "Query response: $RESP"
+          OLD_ID=$(echo "$RESP" | jq -r '.[] | select(.tag_name == "${{ env.TAG }}") | .id')
+          if [[ "$OLD_ID" != "null" && -n "$OLD_ID" ]]; then
+            echo "Found old release id: $OLD_ID, deleting..."
+            DEL_URL="${GITEE_API_BASE}/repos/${{ env.GITEE_OWNER }}/${{ env.GITEE_REPO }}/releases/$OLD_ID?access_token=${GITEE_TOKEN}"
+            curl -X DELETE --max-time 60 "$DEL_URL"
           fi
 
-      # 4. 创建Gitee Tag（Gitee仓库需提前有master分支）
-      - name: Create Gitee Tag
+      # 4. 创建tag POST /repos/{owner}/{repo}/tags
+      # 注意：Gitee仓库必须存在master分支，否则ref不存在报错
+      - name: Create tag on Gitee
         run: |
           curl -X POST --max-time 60 "${GITEE_API_BASE}/repos/${{ env.GITEE_OWNER }}/${{ env.GITEE_REPO }}/tags?access_token=${GITEE_TOKEN}" \
             -H "Content-Type: application/json" \
             -d '{
-              "tag_name": "${{ env.RELEASE_TAG }}",
+              "tag_name": "${{ env.TAG }}",
               "ref": "master",
-              "message": "Auto sync from GitHub Release ${{ env.RELEASE_TAG }}"
+              "message": "Auto sync from GitHub Release ${{ env.TAG }}"
             }'
 
-      # 5. 创建Gitee Release页面，获取release ID
-      - name: Create Gitee Release Page
-        id: create_gitee_release
+      # 5. 创建Release POST /repos/{owner}/{repo}/releases（严格匹配swagger参数）
+      - name: Create Gitee Release
+        id: create_release
         run: |
-          RESP=$(curl -X POST --max-time 60 "${GITEE_API_BASE}/repos/${{ env.GITEE_OWNER }}/${{ env.GITEE_REPO }}/releases?access_token=${GITEE_TOKEN}" \
+          CREATE_URL="${GITEE_API_BASE}/repos/${{ env.GITEE_OWNER }}/${{ env.GITEE_REPO }}/releases?access_token=${GITEE_TOKEN}"
+          echo "Create release request"
+          RES=$(curl -X POST --max-time 60 "$CREATE_URL" \
             -H "Content-Type: application/json" \
             -d '{
-              "tag_name": "${{ env.RELEASE_TAG }}",
-              "name": "${{ env.RELEASE_NAME }}",
-              "body": "${{ env.RELEASE_BODY }}",
-              "prerelease": ${{ env.RELEASE_PRERELEASE }}
+              "tag_name": "${{ env.TAG }}",
+              "name": "${{ env.REL_NAME }}",
+              "body": "${{ env.REL_BODY }}",
+              "prerelease": ${{ env.IS_PRE }}
             }')
-          echo "GITEE_RELEASE_ID=$(echo "$RESP" | jq -r '.id')" >> $GITHUB_ENV
+          echo "Create response: $RES"
+          REL_ID=$(echo "$RES" | jq -r '.id')
+          echo "RELEASE_ID=$REL_ID" >> $GITHUB_ENV
 
-      # 6. 批量上传所有附件到Release
-      - name: Upload Release Assets
+      # 6. 上传附件 POST /repos/{owner}/{repo}/releases/{id}/attach_files
+      - name: Upload release assets
         run: |
           for file in ./release_assets/*; do
             if [ -f "$file" ]; then
-              echo "Upload asset: $file"
-              curl -X POST --max-time 180 "${GITEE_API_BASE}/repos/${{ env.GITEE_OWNER }}/${{ env.GITEE_REPO }}/releases/${{ env.GITEE_RELEASE_ID }}/attach_files?access_token=${GITEE_TOKEN}" \
+              echo "Upload file: $file"
+              UPLOAD_URL="${GITEE_API_BASE}/repos/${{ env.GITEE_OWNER }}/${{ env.GITEE_REPO }}/releases/${{ env.RELEASE_ID }}/attach_files?access_token=${GITEE_TOKEN}"
+              curl -X POST --max-time 180 "$UPLOAD_URL" \
                 -F "file=@$file"
             fi
           done
