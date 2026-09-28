@@ -8,7 +8,7 @@
 
 **加入群聊，第一时间获取AIUI Studio功能特性，与大牛一起探讨技术。**
 
-| QQ:![QQ群](./assets/image-20260927142912207.png) | Telegram：<img src="./assets/image-20260928102127697.png" alt="image-20260928102127697" style="zoom:25%;" /> |
+| QQ:![QQ群](./assets/image-20260927142912207.png) | Telegram：![Telegram](./assets/image-20260928102127697.png) |
 | ------------------------------------------------ | ------------------------------------------------------------ |
 
 
@@ -210,7 +210,7 @@ AIUI Studio 是一款面向嵌入式设备的 LVGL 界面设计工具，让您�
   |                  |                                                              |
   | ---------------- | ------------------------------------------------------------ |
   | [QQ群：1106501552](https://qm.qq.com/q/LJDHUjT4qG) | ![image-20260927142912207](./assets/image-20260927142912207.png) |
-  | [Telegram](https://t.me/+mH7H9ZkKm30xNmY0)        |  <img src="./assets/image-20260928102127697.png" alt="image-20260928102127697" style="zoom:25%;" /> |
+  | [Telegram](https://t.me/+mH7H9ZkKm30xNmY0)        |  ![Telegram](./assets/image-20260928102127697.png) |
 
   
 
