@@ -8,7 +8,7 @@
 
 **Join our community groups and get the latest AIUI Studio features while discussing technology with other experts.**
 
-| QQ: ![QQ Group](./assets/image-20260927144244043.png) | Telegram: ![TG Group](./assets/image-20260927145336903.png) |
+| QQ: ![QQ Group](./assets/image-20260927142912207.png) | Telegram: <img src="./assets/image-20260928102127697.png" alt="Telegram Group" style="zoom:25%;" /> |
 | ----------------------------------------------------- | ----------------------------------------------------------- |
 
 ## 📖 1. Introduction
@@ -179,6 +179,11 @@ General requirements: 4GB+ RAM and a WebGL-capable graphics driver.
 
 - Official Website: [https://aiuistudio.aiaode.com](https://aiuistudio.aiaode.com)
 - GitHub Releases: [https://github.com/fishercc/aiuistudioapp/releases](https://github.com/fishercc/aiuistudioapp/releases)
+- Cloud Drive Downloads
+
+  - Mirror 1: https://www.guangyapan.com/s/1951307935048769588_arkZclS8wyMtssh-
+  - Mirror 2: https://pan.quark.cn/s/f49be5b058cb
+  - Mirror 3: https://pan.baidu.com/s/1ZGUfZhwFshpApFR6rHCw4A?pwd=b7ma
 
 Choose the installer for your platform and install it as usual:
 
@@ -200,8 +205,8 @@ For detailed feature descriptions and operation guides, please visit the officia
 
   |                  |                                                              |
   | ---------------- | ------------------------------------------------------------ |
-  | QQ Group：1106501552 | ![image-20260927142912207](./assets/image-20260927142912207.png) |
-  | Telegram         | https://t.me/+mH7H9ZkKm30xNmY0                               |
+  | [QQ Group: 1106501552](https://qm.qq.com/q/LJDHUjT4qG) | ![QQ Group QR Code](./assets/image-20260927142912207.png) |
+  | [Telegram](https://t.me/+mH7H9ZkKm30xNmY0)        |  <img src="./assets/image-20260928102127697.png" alt="Telegram Group QR Code" style="zoom:25%;" /> |
 
 ## 📄 10. License
 
