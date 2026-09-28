@@ -181,6 +181,11 @@ AIUI Studio 是一款面向嵌入式设备的 LVGL 界面设计工具，让您�
 
 - 官方网站：[https://aiuistudio.aiaode.com](https://aiuistudio.aiaode.com)
 - GitHub Releases：[https://github.com/fishercc/aiuistudioapp/releases](https://github.com/fishercc/aiuistudioapp/releases)
+- 网盘下载
+
+  下载地址1：https://www.guangyapan.com/s/1951307935048769588_arkZclS8wyMtssh-
+  下载地址2：https://pan.quark.cn/s/f49be5b058cb
+  下载地址3：https://pan.baidu.com/s/1ZGUfZhwFshpApFR6rHCw4A?pwd=b7ma 
 
 选择对应平台的安装包，按常规方式安装即可：
 
