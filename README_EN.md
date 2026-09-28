@@ -8,7 +8,7 @@
 
 **Join our community groups and get the latest AIUI Studio features while discussing technology with other experts.**
 
-| QQ: ![QQ Group](./assets/image-20260927142912207.png) | Telegram: <img src="./assets/image-20260928102127697.png" alt="Telegram Group" style="zoom:25%;" /> |
+| QQ: ![QQ Group](./assets/image-20260927142912207.png) | Telegram:![Telegram](./assets/image-20260928102127697.png) |
 | ----------------------------------------------------- | ----------------------------------------------------------- |
 
 ## 📖 1. Introduction
@@ -206,7 +206,7 @@ For detailed feature descriptions and operation guides, please visit the officia
   |                  |                                                              |
   | ---------------- | ------------------------------------------------------------ |
   | [QQ Group: 1106501552](https://qm.qq.com/q/LJDHUjT4qG) | ![QQ Group QR Code](./assets/image-20260927142912207.png) |
-  | [Telegram](https://t.me/+mH7H9ZkKm30xNmY0)        |  <img src="./assets/image-20260928102127697.png" alt="Telegram Group QR Code" style="zoom:25%;" /> |
+  | [Telegram](https://t.me/+mH7H9ZkKm30xNmY0)        | ![Telegram](./assets/image-20260928102127697.png)|
 
 ## 📄 10. License
 
