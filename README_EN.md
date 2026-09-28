@@ -24,14 +24,24 @@ Whether you are an experienced LVGL engineer or a designer new to embedded inter
 ## 🎯 2. Why Choose AIUI Studio
 
 - **AI Design** — Design LVGL interfaces with AI and develop embedded interfaces using natural language, doubling efficiency. With open integration capabilities, it supports external AI tools such as Codex, Claude Code, TRAE, and Cursor, as well as a built-in AI assistant to meet all kinds of AI coding needs
+
 - **Figma Design Import** — First to support one-click export from Figma designs to an AIUI Studio project, doubling your efficiency
+
 - **SquareLine Project Import** — First to support importing SquareLine projects, making it easy to migrate existing projects
+
 - **What You See Is What You Get** — Design results are shown in real time; the screen is right in front of you
+
 - **Design Once, Run on Multiple Versions** — One interface works with multiple LVGL versions; let the tool handle the adaptation
+
 - **Data Security** — Works completely offline with no internet connection required (supports intranet AI large models); your design data never leaves your machine, ensuring enterprise data security
+
 - **Multi-Language Support** — The software supports Chinese and English display out of the box, with more languages to be added in the future
+
 - **Offline Font & Image Converter** — Convert fonts and images even when offline, generating LVGL C arrays and binary (bin) formats anytime
-- **Cross-Platform Support** — Supports Windows, macOS, and Linux; minimum Windows support is Win7 64-bit. Many LVGL editors today no longer support the old Win7 system, but we still do
+
+- **Cross-Platform Support** — Supports Windows, macOS, and Linux; minimum Windows support is Win7 64-bit. Many LVGL editors today no longer support the old Win7 system, but we still do.
+
+![AIUIStudio](./assets/aiuistudio-en.jpg)
 
 ## ✨ 3. Core Features
 
