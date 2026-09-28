@@ -8,8 +8,8 @@
 
 **Join our community groups and get the latest AIUI Studio features while discussing technology with other experts.**
 
-| QQ: ![QQ Group](./assets/image-20260927142912207.png) | Telegram:![Telegram](./assets/image-20260928102127697.png) |
-| ----------------------------------------------------- | ----------------------------------------------------------- |
+| wechat：![10.5](./assets/wechat.jpg) | QQ: ![QQ Group](./assets/image-20260927142912207.png) | Telegram:![Telegram](./assets/image-20260928102127697.png) |
+| ---- | ----------------------------------------------------- | ---------------------------------------------------------- |
 
 ## 📖 1. Introduction
 
