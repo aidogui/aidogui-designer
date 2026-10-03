@@ -1,4 +1,4 @@
-# AIUI Studio
+# AiDoGUI Designer
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -6,26 +6,26 @@
 
 > A professional LVGL graphical interface visual design tool that makes embedded UI development simple and efficient.
 
-**Join our community groups and get the latest AIUI Studio features while discussing technology with other experts.**
+**Join our community groups and get the latest AiDoGUI Designer features while discussing technology with other experts.**
 
 | wechat：![10.5](./assets/wechat.jpg) | QQ: ![QQ Group](./assets/image-20260927142912207.png) | Telegram:![Telegram](./assets/image-20260928102127697.png) |
-| ---- | ----------------------------------------------------- | ---------------------------------------------------------- |
+| ------------------------------------ | ----------------------------------------------------- | ---------------------------------------------------------- |
 
 ## 📖 1. Introduction
 
 LVGL (Light and Versatile Graphics Library) is one of the most popular open-source GUI frameworks in the embedded field, widely used in smartwatches, home appliance panels, automotive infotainment, industrial control screens, and other devices. However, the traditional LVGL development workflow requires manually writing interface layouts, styles, and event logic in C code, resulting in low development efficiency, difficult debugging, and poor visualization.
 
-AIUI Studio is an LVGL interface design tool for embedded devices. You can complete your UI design just by "drag and drop" — no C code required. Enjoy a what-you-see-is-what-you-get design experience without writing a single line of C code. Once the design is done, export standard LVGL C source code with one click and integrate it directly into your embedded project, dramatically lowering the barrier to LVGL development. It also provides a built-in AI assistant plus external AI agents (Codex, Claude Code, TRAE, Cursor, etc.) that generate LVGL code from natural-language descriptions, greatly improving embedded UI development efficiency.
+AiDoGUI Designer is an LVGL interface design tool for embedded devices. You can complete your UI design just by "drag and drop" — no C code required. Enjoy a what-you-see-is-what-you-get design experience without writing a single line of C code. Once the design is done, export standard LVGL C source code with one click and integrate it directly into your embedded project, dramatically lowering the barrier to LVGL development. It also provides a built-in AI assistant plus external AI agents (Codex, Claude Code, TRAE, Cursor, etc.) that generate LVGL code from natural-language descriptions, greatly improving embedded UI development efficiency.
 
-Whether you are an experienced LVGL engineer or a designer new to embedded interfaces, AIUI Studio turns your ideas into real, working screens quickly.
+Whether you are an experienced LVGL engineer or a designer new to embedded interfaces, AiDoGUI Designer turns your ideas into real, working screens quickly.
 
 ![image-20260927173529535](./assets/image-20260927173529535.png)
 
-## 🎯 2. Why Choose AIUI Studio
+## 🎯 2. Why Choose AiDoGUI Designer
 
 - **AI Design** — Design LVGL interfaces with AI and develop embedded interfaces using natural language, doubling efficiency. With open integration capabilities, it supports external AI tools such as Codex, Claude Code, TRAE, and Cursor, as well as a built-in AI assistant to meet all kinds of AI coding needs
 
-- **Figma Design Import** — First to support one-click export from Figma designs to an AIUI Studio project, doubling your efficiency
+- **Figma Design Import** — First to support one-click export from Figma designs to an AiDoGUI Designer project, doubling your efficiency
 
 - **SquareLine Project Import** — First to support importing SquareLine projects, making it easy to migrate existing projects
 
@@ -55,7 +55,7 @@ Whether you are an experienced LVGL engineer or a designer new to embedded inter
 
 ### 🚀 3.2 One-Click Figma Import, Opening the Door to UI Design
 
-- Use the AIUI Studio Exporter plugin to export Figma designs in one click and import them through AIUI Studio
+- Use the AiDoGUI Designer Exporter plugin to export Figma designs in one click and import them through AiDoGUI Designer
 
 - Import **Figma** designs with automatic association of fonts and other resources
 
@@ -177,11 +177,11 @@ Create your first LVGL interface in just five minutes:
 
 ## 🎯 6. System Requirements
 
-| Platform | Minimum Requirement |
-|----------|---------------------|
-| **Windows** | Windows 7 or later (64-bit) |
-| **macOS** | macOS 11 (Big Sur) or later |
-| **Linux** | Ubuntu 20.04+ / Debian 11+ and other mainstream distributions |
+| Platform    | Minimum Requirement                                           |
+| ----------- | ------------------------------------------------------------- |
+| **Windows** | Windows 7 or later (64-bit)                                   |
+| **macOS**   | macOS 11 (Big Sur) or later                                   |
+| **Linux**   | Ubuntu 20.04+ / Debian 11+ and other mainstream distributions |
 
 General requirements: 4GB+ RAM and a WebGL-capable graphics driver.
 
@@ -190,7 +190,6 @@ General requirements: 4GB+ RAM and a WebGL-capable graphics driver.
 - Official Website: [https://aiuistudio.aiaode.com](https://aiuistudio.aiaode.com)
 - GitHub Releases: [https://github.com/fishercc/aiuistudioapp/releases](https://github.com/fishercc/aiuistudioapp/releases)
 - Cloud Drive Downloads
-
   - Mirror 1: https://www.guangyapan.com/s/1951307935048769588_arkZclS8wyMtssh-
   - Mirror 2: https://pan.quark.cn/s/f49be5b058cb
   - Mirror 3: https://pan.baidu.com/s/1ZGUfZhwFshpApFR6rHCw4A?pwd=b7ma
@@ -213,10 +212,10 @@ For detailed feature descriptions and operation guides, please visit the officia
 
 - 💬 **Community Discussion** — Join our community groups to build great tools together, share technology, and grow together.
 
-  |                  |                                                              |
-  | ---------------- | ------------------------------------------------------------ |
+  |                                                        |                                                           |
+  | ------------------------------------------------------ | --------------------------------------------------------- |
   | [QQ Group: 1106501552](https://qm.qq.com/q/LJDHUjT4qG) | ![QQ Group QR Code](./assets/image-20260927142912207.png) |
-  | [Telegram](https://t.me/+mH7H9ZkKm30xNmY0)        | ![Telegram](./assets/image-20260928102127697.png)|
+  | [Telegram](https://t.me/+mH7H9ZkKm30xNmY0)             | ![Telegram](./assets/image-20260928102127697.png)         |
 
 ## 📄 10. License
 
@@ -228,4 +227,4 @@ Thanks to the [LVGL](https://lvgl.io/) project for providing powerful graphics l
 
 ---
 
-**AIUI Studio** — Making embedded UI development simpler and more efficient!
+**AiDoGUI Designer** — Making embedded UI development simpler and more efficient!

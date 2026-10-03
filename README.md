@@ -1,4 +1,4 @@
-# AIUI Studio
+# AiDoGUI Designer
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -6,27 +6,26 @@
 
 > 一款专业的 LVGL 图形界面可视化设计工具，让嵌入式 UI 开发变得简单而高效。
 
-**加入群聊，第一时间获取AIUI Studio功能特性，与大牛一起探讨技术。**
+**加入群聊，第一时间获取AiDoGUI Designer功能特性，与大牛一起探讨技术。**
 
 | 微信群：![10.5](./assets/wechat.jpg) | QQ:![QQ群](./assets/image-20260927142912207.png) | Telegram：![Telegram](./assets/image-20260928102127697.png) |
 | ------------------------------------ | ------------------------------------------------ | ----------------------------------------------------------- |
-
-
 
 ## 📖 1.简介
 
 LVGL（Light and Versatile Graphics Library）是嵌入式领域最流行的开源 GUI 框架之一，被广泛应用于智能手表、家电面板、车载中控、工业控制屏等设备。然而，传统的 LVGL 开发流程需要在 C 代码中手动编写界面布局、样式和事件逻辑，开发效率低、调试困难、可视化程度差。
 
-AIUI Studio 是一款面向嵌入式设备的 LVGL 界面设计工具，让您像画图一样「拖一拖、点一点」即可完成 UI 设计，提供所见即所得的 UI 设计体验，无需手写一行 C 代码。设计完成即可一键导出标准 LVGL C 源码，直接集成到您的嵌入式项目中，大幅降低 LVGL 开发门槛。并且提供内置 AI 助手 + 外部 AI Agent （Codex、Claude Code、TRAE 、Cursor等）自然语言描述需求，自动生成LVGL代码，大幅提高嵌入UI开发效率，彻底解放生成力。
+AiDoGUI Designer 是一款面向嵌入式设备的 LVGL 界面设计工具，让您像画图一样「拖一拖、点一点」即可完成 UI 设计，提供所见即所得的 UI 设计体验，无需手写一行 C 代码。设计完成即可一键导出标准 LVGL C 源码，直接集成到您的嵌入式项目中，大幅降低 LVGL 开发门槛。并且提供内置 AI 助手 + 外部 AI Agent （Codex、Claude Code、TRAE 、Cursor等）自然语言描述需求，自动生成LVGL代码，大幅提高嵌入UI开发效率，彻底解放生成力。
 
-无论您是资深 LVGL 工程师，还是初次接触嵌入式界面的设计师，AIUI Studio 都能帮您把想法快速变成真实可用的屏幕界面。
+无论您是资深 LVGL 工程师，还是初次接触嵌入式界面的设计师，AiDoGUI Designer 都能帮您把想法快速变成真实可用的屏幕界面。
 
 ![image-20260927140953897](./assets/image-20260927140953897.png)
 
-## 🎯 2.为什么选择 AIUI Studio
+## 🎯 2.为什么选择 AiDoGUI Designer
+
 - **AI 设计** —— 加入AI设计LVGL界面，用自然语言开发嵌入式界面，效率直接翻倍，关键开放接入能力，支持Codex、Claude Code、TRAE 、Cursor等外部AI工具接入，也提供内置AI助手，满足各种AI编程需求
 
-- **Figma设计稿导入** —— 首创支持Figma 设计稿一键导出到AIUI Studio工程，效率翻倍
+- **Figma设计稿导入** —— 首创支持Figma 设计稿一键导出到AiDoGUI Designer工程，效率翻倍
 
 - **SquareLine工程导入** —— 首创支持对SquareLine工程导入支持，方便移植之前项目工程
 
@@ -34,7 +33,7 @@ AIUI Studio 是一款面向嵌入式设备的 LVGL 界面设计工具，让您�
 
 - **一次设计，多版本可用** —— 一套界面对接多个 LVGL 版本，改代码适配的烦恼交给工具
 
-- **数据安全** ——  完全离线可用，无需联网（可对接内网ai大模型），设计数据不出本地，保证企业数据安全
+- **数据安全** —— 完全离线可用，无需联网（可对接内网ai大模型），设计数据不出本地，保证企业数据安全
 
 - **支持多国语言**—— 软件支持中文、英文显示，无需翻译，未来还会增加更多语言
 
@@ -54,9 +53,9 @@ AIUI Studio 是一款面向嵌入式设备的 LVGL 界面设计工具，让您�
 
 ![image-20260927142433951](./assets/image-20260927142433951.png)
 
-### 🚀3.2  一键导入Figma设计稿，打通UI设计大门
+### 🚀3.2 一键导入Figma设计稿，打通UI设计大门
 
-- 通过AIUI Studio Exporter插件，一键导出Figma设计稿，通过AIUI Studio进行导入
+- 通过AiDoGUI Designer Exporter插件，一键导出Figma设计稿，通过AiDoGUI Designer进行导入
 
 - 导入 **Figma** 设计稿，字体等资源自动关
 
@@ -67,8 +66,6 @@ AIUI Studio 是一款面向嵌入式设备的 LVGL 界面设计工具，让您�
 - 直接导入 **SquareLine Studio** 的项目，平滑迁移
 
   ![image-20260927140640221](./assets/image-20260927140640221.png)
-
-
 
 ### 🎨 3.4 拖拽式可视化设计
 
@@ -135,6 +132,7 @@ AIUI Studio 是一款面向嵌入式设备的 LVGL 界面设计工具，让您�
 - 复杂逻辑也能通过可视化方式完成
 
 ### 🔂 3.14 工程复用
+
 - 支持修改工程名称、工程存放位置
 
 - 支持复制工程，直接复刻一份工程
@@ -179,11 +177,11 @@ AIUI Studio 是一款面向嵌入式设备的 LVGL 界面设计工具，让您�
 
 ## 🎯 6.系统要求
 
-| 平台 | 最低要求 |
-|------|---------|
-| **Windows** | Windows 7 及以上 64位 |
-| **macOS** | macOS 11 (Big Sur) 及以上 |
-| **Linux** | Ubuntu 20.04+ / Debian 11+ 等主流发行版 |
+| 平台        | 最低要求                                |
+| ----------- | --------------------------------------- |
+| **Windows** | Windows 7 及以上 64位                   |
+| **macOS**   | macOS 11 (Big Sur) 及以上               |
+| **Linux**   | Ubuntu 20.04+ / Debian 11+ 等主流发行版 |
 
 通用要求：4GB 以上内存，支持 WebGL 的显卡驱动。
 
@@ -192,10 +190,9 @@ AIUI Studio 是一款面向嵌入式设备的 LVGL 界面设计工具，让您�
 - 官方网站：[https://aiuistudio.aiaode.com](https://aiuistudio.aiaode.com)
 - GitHub Releases：[https://github.com/fishercc/aiuistudioapp/releases](https://github.com/fishercc/aiuistudioapp/releases)
 - 网盘下载
-
   - 下载地址1：https://www.guangyapan.com/s/1951307935048769588_arkZclS8wyMtssh-
   - 下载地址2：https://pan.quark.cn/s/f49be5b058cb
-  - 下载地址3：https://pan.baidu.com/s/1ZGUfZhwFshpApFR6rHCw4A?pwd=b7ma 
+  - 下载地址3：https://pan.baidu.com/s/1ZGUfZhwFshpApFR6rHCw4A?pwd=b7ma
 
 选择对应平台的安装包，按常规方式安装即可：
 
@@ -215,16 +212,10 @@ AIUI Studio 是一款面向嵌入式设备的 LVGL 界面设计工具，让您�
 
 - 💬 **社区讨论** —— 加入我们的社区群组，共同创建好用工具，分享技术共同进步。
 
-  
-
-  |                  |                                                              |
-  | ---------------- | ------------------------------------------------------------ |
+  |                                                    |                                                                  |
+  | -------------------------------------------------- | ---------------------------------------------------------------- |
   | [QQ群：1106501552](https://qm.qq.com/q/LJDHUjT4qG) | ![image-20260927142912207](./assets/image-20260927142912207.png) |
-  | [Telegram](https://t.me/+mH7H9ZkKm30xNmY0)        |  ![Telegram](./assets/image-20260928102127697.png) |
-
-  
-
-  
+  | [Telegram](https://t.me/+mH7H9ZkKm30xNmY0)         | ![Telegram](./assets/image-20260928102127697.png)                |
 
 ## 📄 10.许可证
 
@@ -236,4 +227,4 @@ AIUI Studio 是一款面向嵌入式设备的 LVGL 界面设计工具，让您�
 
 ---
 
-**AIUI Studio** —— 让嵌入式 UI 开发更简单、更高效！
+**AiDoGUI Designer** —— 让嵌入式 UI 开发更简单、更高效！
