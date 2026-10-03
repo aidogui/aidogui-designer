@@ -29,17 +29,17 @@ Whether you are an experienced LVGL engineer or a designer new to embedded inter
 
 - **SquareLine Project Import** — First to support importing SquareLine projects, making it easy to migrate existing projects
 
-- **What You See Is What You Get** — Design results are shown in real time; the screen is right in front of you
-
 - **Design Once, Run on Multiple Versions** — One interface works with multiple LVGL versions; let the tool handle the adaptation
-
-- **Data Security** — Works completely offline with no internet connection required (supports intranet AI large models); your design data never leaves your machine, ensuring enterprise data security
-
-- **Multi-Language Support** — The software supports Chinese and English display out of the box, with more languages to be added in the future
 
 - **Offline Font & Image Converter** — Convert fonts and images even when offline, generating LVGL C arrays and binary (bin) formats anytime
 
+- **Multi-Language Support** — The software supports Chinese and English display out of the box, with more languages to be added in the future
+
+- **Data Security** — Works completely offline with no internet connection required (supports intranet AI large models); your design data never leaves your machine, ensuring enterprise data security
+
 - **Cross-Platform Support** — Supports Windows, macOS, and Linux; minimum Windows support is Win7 64-bit. Many LVGL editors today no longer support the old Win7 system, but we still do.
+
+- **What You See Is What You Get** — Design results are shown in real time; the screen is right in front of you
 
 ![AIUIStudio](./assets/gongnengtu-en.jpg)
 
@@ -187,8 +187,8 @@ General requirements: 4GB+ RAM and a WebGL-capable graphics driver.
 
 ## 📥 7. Download & Install
 
-- Official Website: [https://aiuistudio.aiaode.com](https://aiuistudio.aiaode.com)
-- GitHub Releases: [https://github.com/fishercc/aiuistudioapp/releases](https://github.com/fishercc/aiuistudioapp/releases)
+- Official Website: [https://aidogui.com](https://aidogui.com)
+- GitHub Releases: [https://github.com/aidogui/aidogui-designer/releases](https://github.com/aidogui/aidogui-designer/releases)
 - Cloud Drive Downloads
   - Mirror 1: https://www.guangyapan.com/s/1951307935048769588_arkZclS8wyMtssh-
   - Mirror 2: https://pan.quark.cn/s/f49be5b058cb
@@ -202,13 +202,13 @@ Choose the installer for your platform and install it as usual:
 
 ## 📚 8. Documentation
 
-For detailed feature descriptions and operation guides, please visit the official website [documentation](https://aiuistudio.aiaode.com/docs).
+For detailed feature descriptions and operation guides, please visit the official website [documentation](https://aidogui.com/docs).
 
 ## 🤝 9. Community and Support
 
-- 📧 **Issue Feedback** — If you encounter problems or have feature suggestions, please submit an [Issue](https://github.com/fishercc/aiuistudioapp/issues)
+- 📧 **Issue Feedback** — If you encounter problems or have feature suggestions, please submit an [Issue](https://github.com/aidogui/aidogui-designer/issues)
 
-- 🌐 **Official Website** — [https://aiuistudio.aiaode.com](https://aiuistudio.aiaode.com)
+- 🌐 **Official Website** — [https://aidogui.com](https://aidogui.com)
 
 - 💬 **Community Discussion** — Join our community groups to build great tools together, share technology, and grow together.
 

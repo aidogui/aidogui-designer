@@ -19,7 +19,7 @@ AiDoGUI Designer 是一款面向嵌入式设备的 LVGL 界面设计工具，让
 
 无论您是资深 LVGL 工程师，还是初次接触嵌入式界面的设计师，AiDoGUI Designer 都能帮您把想法快速变成真实可用的屏幕界面。
 
-![image-20260927140953897](./assets/image-20260927173529535.png)
+![image-20260927140953897](./assets/edit.png)
 
 ## 🎯 2.为什么选择 AiDoGUI Designer
 
@@ -29,17 +29,17 @@ AiDoGUI Designer 是一款面向嵌入式设备的 LVGL 界面设计工具，让
 
 - **SquareLine工程导入** —— 首创支持对SquareLine工程导入支持，方便移植之前项目工程
 
-- **所见即所得** —— 设计效果实时呈现，屏幕就在眼前，无需依赖想象
-
 - **一次设计，多版本可用** —— 一套界面对接多个 LVGL 版本，改代码适配的烦恼交给工具
-
-- **数据安全** —— 完全离线可用，无需联网（可对接内网ai大模型），设计数据不出本地，保证企业数据安全
-
-- **支持多国语言**—— 软件支持中文、英文显示，无需翻译，未来还会增加更多语言
 
 - **离线字体图片转换器**—— 离线也可转换字体、图片，随时生成LVGL C语言数组、bin格式
 
+- **支持多国语言**—— 软件支持中文、英文显示，无需翻译，未来还会增加更多语言
+
+- **数据安全** —— 完全离线可用，无需联网（可对接内网ai大模型），设计数据不出本地，保证企业数据安全
+
 - **跨平台支持** —— 支持Windows、MACOS 、Linux，Windows最低支持Win7 64位，如今很多lvgl编辑均不支持win7旧系统，但我们还支持
+
+- **所见即所得** —— 设计效果实时呈现，屏幕就在眼前，无需依赖想象
 
   ![AIUISTUDIO核心功能](./assets/gongnengtu-cn.jpg)
 
@@ -187,8 +187,8 @@ AiDoGUI Designer 是一款面向嵌入式设备的 LVGL 界面设计工具，让
 
 ## 📥 7.下载安装
 
-- 官方网站：[https://aiuistudio.aiaode.com](https://aiuistudio.aiaode.com)
-- GitHub Releases：[https://github.com/fishercc/aiuistudioapp/releases](https://github.com/fishercc/aiuistudioapp/releases)
+- 官方网站：[https://aidogui.com](https://aidogui.com)
+- GitHub Releases：[https://github.com/aidogui/aidogui-designer/releases](https://github.com/aidogui/aidogui-designer/releases)
 - 网盘下载
   - 下载地址1：https://www.guangyapan.com/s/1951307935048769588_arkZclS8wyMtssh-
   - 下载地址2：https://pan.quark.cn/s/f49be5b058cb
@@ -202,13 +202,13 @@ AiDoGUI Designer 是一款面向嵌入式设备的 LVGL 界面设计工具，让
 
 ## 📚 8.文档
 
-如需了解详细功能与操作说明，请访问官方网站的[文档](https://aiuistudio.aiaode.com/docs)
+如需了解详细功能与操作说明，请访问官方网站的[文档](https://aidogui.com/docs)
 
 ## 🤝 9.社区与支持
 
-- 📧 **问题反馈** —— 遇到问题或有功能建议，欢迎提交 [Issue](https://github.com/fishercc/aiuistudioapp/issues)
+- 📧 **问题反馈** —— 遇到问题或有功能建议，欢迎提交 [Issue](https://github.com/aidogui/aidogui-designer/issues)
 
-- 🌐 **官方网站** —— [https://aiuistudio.aiaode.com](https://aiuistudio.aiaode.com)
+- 🌐 **官方网站** —— [https://aidogui.com](https://aidogui.com)
 
 - 💬 **社区讨论** —— 加入我们的社区群组，共同创建好用工具，分享技术共同进步。
 
