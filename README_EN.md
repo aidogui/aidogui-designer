@@ -41,7 +41,7 @@ Whether you are an experienced LVGL engineer or a designer new to embedded inter
 
 - **Cross-Platform Support** — Supports Windows, macOS, and Linux; minimum Windows support is Win7 64-bit. Many LVGL editors today no longer support the old Win7 system, but we still do.
 
-![AIUIStudio](./assets/aiuistudio-en.jpg)
+![AIUIStudio](./assets/gongnengtu-en.jpg)
 
 ## ✨ 3. Core Features
 

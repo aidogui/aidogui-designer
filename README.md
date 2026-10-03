@@ -19,7 +19,7 @@ AiDoGUI Designer 是一款面向嵌入式设备的 LVGL 界面设计工具，让
 
 无论您是资深 LVGL 工程师，还是初次接触嵌入式界面的设计师，AiDoGUI Designer 都能帮您把想法快速变成真实可用的屏幕界面。
 
-![image-20260927140953897](./assets/image-20260927140953897.png)
+![image-20260927140953897](./assets/image-20260927173529535.png)
 
 ## 🎯 2.为什么选择 AiDoGUI Designer
 
@@ -41,7 +41,7 @@ AiDoGUI Designer 是一款面向嵌入式设备的 LVGL 界面设计工具，让
 
 - **跨平台支持** —— 支持Windows、MACOS 、Linux，Windows最低支持Win7 64位，如今很多lvgl编辑均不支持win7旧系统，但我们还支持
 
-  ![AIUISTUDIO核心功能](./assets/aiuistudio-cn.jpg)
+  ![AIUISTUDIO核心功能](./assets/gongnengtu-cn.jpg)
 
 ## ✨ 3.核心功能
 
