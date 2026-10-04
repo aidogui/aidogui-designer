@@ -8,8 +8,8 @@
 
 **Join our community groups and get the latest AiDoGUI Designer features while discussing technology with other experts.**
 
-| wechat：![10.5](./assets/wechat.jpg) | QQ: ![QQ Group](./assets/image-20260927142912207.png) | Telegram:![Telegram](./assets/image-20260928102127697.png) |
-| ------------------------------------ | ----------------------------------------------------- | ---------------------------------------------------------- |
+| wechat：![10.5](./assets/wechat.jpg) | QQ: ![QQ Group](./assets/qq.jpg) | Telegram:![Telegram](./assets/image-20260928102127697.png) |
+| ------------------------------------ | -------------------------------- | ---------------------------------------------------------- |
 
 ## 📖 1. Introduction
 
@@ -212,10 +212,10 @@ For detailed feature descriptions and operation guides, please visit the officia
 
 - 💬 **Community Discussion** — Join our community groups to build great tools together, share technology, and grow together.
 
-  |                                                        |                                                           |
-  | ------------------------------------------------------ | --------------------------------------------------------- |
-  | [QQ Group: 1106501552](https://qm.qq.com/q/LJDHUjT4qG) | ![QQ Group QR Code](./assets/image-20260927142912207.png) |
-  | [Telegram](https://t.me/+mH7H9ZkKm30xNmY0)             | ![Telegram](./assets/image-20260928102127697.png)         |
+  |                                                        |                                                   |
+  | ------------------------------------------------------ | ------------------------------------------------- |
+  | [QQ Group: 1106501552](https://qm.qq.com/q/LJDHUjT4qG) | ![QQ Group QR Code](./assets/qq.jpg)              |
+  | [Telegram](https://t.me/+mH7H9ZkKm30xNmY0)             | ![Telegram](./assets/image-20260928102127697.png) |
 
 ## 📄 10. License
 
