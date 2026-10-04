@@ -19,7 +19,7 @@ AiDoGUI Designer is an LVGL interface design tool for embedded devices. You can 
 
 Whether you are an experienced LVGL engineer or a designer new to embedded interfaces, AiDoGUI Designer turns your ideas into real, working screens quickly.
 
-![image-20260927173529535](./assets/image-20260927173529535.png)
+![image-20260927140953897](./assets/edit.png)
 
 ## 🎯 2. Why Choose AiDoGUI Designer
 
@@ -55,7 +55,9 @@ Whether you are an experienced LVGL engineer or a designer new to embedded inter
 
 ### 🚀 3.2 One-Click Figma Import, Opening the Door to UI Design
 
-- Use the AiDoGUI Designer Exporter plugin to export Figma designs in one click and import them through AiDoGUI Designer
+- Search for the "Figmea To AiDoGUIDesigner Exporter" plugin in the Figma plugin marketplace, install it, and open the plugin
+
+- Select the layers to export in Figma, export the Figma design as a .zip file in one click, and import it through AiDoGUI Designer
 
 - Import **Figma** designs with automatic association of fonts and other resources
 
