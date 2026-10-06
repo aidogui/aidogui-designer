@@ -1,0 +1,8 @@
+# 禁止创建空白issue，必须选择模板
+blank_issues_enabled: false
+
+# 自定义外部联系入口（可选，不需要可以删掉这段）
+contact_links:
+  - name: AiDoGUI文档中心
+    url: https://aidogui.com/docs/
+    about: 查看AiDoGUI的官方文档和使用指南
