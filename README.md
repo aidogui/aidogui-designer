@@ -55,11 +55,11 @@ AiDoGUI Designer 是一款面向嵌入式设备的 LVGL 界面设计工具，让
 
 ### 🚀3.2 一键导入Figma设计稿，打通UI设计大门
 
-- Figma 插件市场搜索“Figma To AiDoGUIDesigner Exporter” 插件然后安装，打开插件
+- Figma 插件市场搜索“Figma To AiDoGUIDesigner Exporter” 插件然后安装，也可以用浏览器打开：https://www.figma.com/community/plugin/1688507897006432761/figma-to-aidogui-designer-exporter 安装。
 
-- 在Figma选择要导出的Layer，一键导出Figma设计稿.zip，通过AiDoGUI Designer进行导入
+- 在Figma选择要导出的Layer，一键导出Figma设计稿.zip，通过AiDoGUI Designer进行导入。
 
-- 导入 **Figma** 设计稿，字体等资源自动关
+- 导入 **Figma** 设计稿，字体等资源自动关联
 
   ![image-20260927140437294](./assets/image-20260927140437294.png)
 
