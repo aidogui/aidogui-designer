@@ -55,7 +55,7 @@ Whether you are an experienced LVGL engineer or a designer new to embedded inter
 
 ### 🚀 3.2 One-Click Figma Import, Opening the Door to UI Design
 
-- Search for the "Figmea To AiDoGUIDesigner Exporter" plugin in the Figma plugin marketplace, install it, and open the plugin
+- Search for the "Figma To AiDoGUIDesigner Exporter" plugin in the Figma plugin marketplace, install it, and open the plugin
 
 - Select the layers to export in Figma, export the Figma design as a .zip file in one click, and import it through AiDoGUI Designer
 
