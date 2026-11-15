@@ -23,7 +23,7 @@ Whether you are an experienced LVGL engineer or a designer new to embedded inter
 
 ## 🎯 2. Why Choose AiDoGUI Designer
 
-- **AI Design** — Design LVGL interfaces with AI and develop embedded interfaces using natural language, doubling efficiency. With open integration capabilities, it supports external AI tools such as Codex, Claude Code, TRAE, and Cursor, as well as a built-in AI assistant to meet all kinds of AI coding needs
+- **AI Design** — Design LVGL interfaces with AI and develop embedded interfaces using natural language, doubling efficiency. With open integration capabilities, it supports external AI tools such as Codex, Claude Code, TRAE, Cursor, DeepSeek Harness, and WorkBuddy, plus a built-in AI custom API to meet all kinds of AI coding needs
 
 - **Figma Design Import** — First to support one-click export from Figma designs to an AiDoGUI Designer project, doubling your efficiency
 
@@ -37,7 +37,7 @@ Whether you are an experienced LVGL engineer or a designer new to embedded inter
 
 - **Data Security** — Works completely offline with no internet connection required (supports intranet AI large models); your design data never leaves your machine, ensuring enterprise data security
 
-- **Cross-Platform Support** — Supports Windows, macOS, and Linux; minimum Windows support is Win7 64-bit. Many LVGL editors today no longer support the old Win7 system, but we still do.
+- **Cross-Platform Support** — Supports Windows, macOS, and Linux; minimum Windows support is Win7 64-bit (supported in versions 1.6.0 and below; versions 2.0.0 and above require at least Win10). Many LVGL editors today no longer support the old Win7 system, but we still do.
 
 - **What You See Is What You Get** — Design results are shown in real time; the screen is right in front of you
 
@@ -47,17 +47,17 @@ Whether you are an experienced LVGL engineer or a designer new to embedded inter
 
 ### 🤖 3.1 AI Design
 
-- Describe the interface you want in plain language and let AI generate it quickly
-- Supports collaboration with AI tools such as Cursor, TRAE, Claude Code, and Codex
+- Describe the interface you want in plain language and let AI design the interface, layout, styling, and more
+- Supports collaboration with AI tools such as Cursor, TRAE, Claude Code, Codex, and DeepSeek Harness
 - Let AI handle layout and styling to double your efficiency
 
-![image-20260927142433951](./assets/image-20260927142433951.png)
+![image-20261115173247033](./assets/image-20261115173247033.png)
 
 ### 🚀 3.2 One-Click Figma Import, Opening the Door to UI Design
 
-- Search for the "Figma To AiDoGUIDesigner Exporter" plugin in the Figma plugin marketplace, install it, and open the plugin
+- Search for the "Figma To AiDoGUIDesigner Exporter" plugin in the Figma plugin marketplace and install it, or open https://www.figma.com/community/plugin/1688507897006432761/figma-to-aidogui-designer-exporter in your browser to install it.
 
-- Select the layers to export in Figma, export the Figma design as a .zip file in one click, and import it through AiDoGUI Designer
+- Select the layers to export in Figma, export the Figma design as a .zip file in one click, and import it through AiDoGUI Designer.
 
 - Import **Figma** designs with automatic association of fonts and other resources
 
@@ -72,8 +72,14 @@ Whether you are an experienced LVGL engineer or a designer new to embedded inter
 ### 🎨 3.4 Drag-and-Drop Visual Design
 
 - Drag widgets from the component library onto the canvas, then place, resize, and align them with ease
+
 - Real-time preview of your design — what you see is what you get
+
 - Grid and guide lines for pixel-perfect alignment
+
+- Graphical event design
+
+  ![image-20261115172940445](./assets/image-20261115172940445.png)
 
 ### 🧩 3.5 Rich Widget Library
 
@@ -91,9 +97,13 @@ Built-in **40+ LVGL widgets**, ready to drop in:
 
 ### ⚡ 3.7 Full Multi-Version LVGL Support
 
-- Supports LVGL **8.4.0 / 9.2.2 / 9.3.0 / 9.4.0 / 9.5.0**; 9.6.0 is being adapted, stay tuned...
+- Supports LVGL **8.4.0 / 9.2.2 / 9.3.0 / 9.4.0 / 9.6.0**
+
 - Differences between versions are handled automatically — no need to redesign when switching versions
-- One design, works with any LVGL version your project uses
+
+- One design, works with any LVGL version your project uses, and you can **switch versions at any time during design**
+
+  ![image-20261115173018403](./assets/image-20261115173018403.png)
 
 ### 🔀 3.8 One-Click C Code Export
 
@@ -179,11 +189,11 @@ Create your first LVGL interface in just five minutes:
 
 ## 🎯 6. System Requirements
 
-| Platform    | Minimum Requirement                                           |
-| ----------- | ------------------------------------------------------------- |
-| **Windows** | Windows 7 or later (64-bit)                                   |
-| **macOS**   | macOS 11 (Big Sur) or later                                   |
-| **Linux**   | Ubuntu 20.04+ / Debian 11+ and other mainstream distributions |
+| Platform    | Minimum Requirement                                         |
+| ----------- | ----------------------------------------------------------- |
+| **Windows** | Windows 10 or later (64-bit); Win7 supported in version 1.6.0 |
+| **macOS**   | macOS 13 or later                                           |
+| **Linux**   | Ubuntu 22.04+ / Debian 11+ and other mainstream distributions |
 
 General requirements: 4GB+ RAM and a WebGL-capable graphics driver.
 
@@ -212,7 +222,7 @@ For detailed feature descriptions and operation guides, please visit the officia
 
 - 🌐 **Official Website** — [https://aidogui.com](https://aidogui.com)
 
-- 💬 **Community Discussion** — Join our community groups to build great tools together, share technology, and grow together.
+- 💬 **Community Discussion** — Join our community groups for technical support, build great tools together, share technology, and grow together.
 
   |                                                        |                                                   |
   | ------------------------------------------------------ | ------------------------------------------------- |
